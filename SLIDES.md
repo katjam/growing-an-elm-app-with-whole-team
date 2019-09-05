@@ -6,16 +6,16 @@ PIC: team non-descript but working in silos
 
 ## Katja Mordaunt
 ![](img/neontribe-logo.png)
-
+I like being nice.
 
 
 Note:
 **JOURNEY to here --> why I care about leading good teams**
+- Practical tips, how and why Elm helps
 - Developing software in small teams for over a decade - alongside parenting
 - Noticed some things about how people work together / behave in groups/ treat each other
 - Involved in projects that break down because of communication
 - Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Hopefully something you didn't know too!
-- Practical tips, how and why Elm helps
 
 ---
 
@@ -34,11 +34,14 @@ Note:
 
 ## So we're going with Elm?
 
-PIC: haven site with some code
+PIC: haven site with some code & elm seasons
 
 Note:
 **Had some ups and downs, but be built a thing**
 - Learn to trust each other's tech - and knowlegde
+- Ability to evaluate and make choices in good faith
+- Remember that sometimes things made along time ago or in a hurry (there's always a story)
+- We are all capable of making mistakes
 - Unfortunately not everyone agreed with me and we tied the project off - released and on the shelf.
 
 +++
@@ -50,22 +53,27 @@ PIC: The team with labels busy and silos (Server Gnome, Javascript Ninja, Rockst
 "Is there anything anyone needs help with?" - Junior Illustrator <!-- .element class="fragment" data-fragment-index="1" -->
 
 Note:
+**See original notes here**
 - **One year on - Success, now make some more**
-- Translate the original &
-- funded project user research took a lot longer than expected with charity ...
-- Working with charity partners - user research took longer due to delays in comms
-- Remote lead to roll out clones, no developers available
+- Translate the original & roll out some clones
 - Upgrade to 19 - Manager I think we can handle the transation & upgrade but we better port the app to js for the clones so more people can work on it
+- Working with charity partners - user research took longer due to delays in comms
+- Manager thinks port the app to js for the clones so more people can work on it
+- Remote lead to roll out clones, no developers available - *mention labels a little*
 - Yes! There is something I need help with.
 
 ---
 
 
 ## Stumbling down the path...
+PIC: github?
 
-- One fine day
-- Who do we have user research a bit of code, junior illustrator, myself, etc
-- Might work if we do it like this?
+Note:
+- So we set off with myself and another developer with very little time here and there
+- A user researcher with a maths degree who'd done a bit of coding
+- A junior illustrator who wanted to help
+- Might work if we do it like this? Github set up.
+- 5 problems common to software projects
 - Didn't all go swimmingly .. This is what worked well.
 
 +++
@@ -157,9 +165,9 @@ Note:
 +++
 
 ## What we can do as a community
-- labels don't help - let's stop using them
-- the variety of our knowledge is valuable - let's keep learning and sharing<!-- .element class="fragment highlight-yellow" data-fragment-index="2" -->
-- no one should feel left out - let's work on inclusivity <!-- .element class="fragment highlight-red" data-fragment-index="3" -->
+- labeling each other doesn't help - let's stop doing it<!-- .element class="fragment" data-fragment-index="1" -->
+- the variety of our knowledge is valuable - let's keep learning and sharing <!-- .element class="fragment" data-fragment-index="2" -->
+- no one should feel left out - let's work on inclusivity <!-- .element class="fragment" data-fragment-index="3" -->
 
 Note:
 -
