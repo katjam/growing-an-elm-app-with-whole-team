@@ -16,6 +16,7 @@ Note:
 - Noticed some things about how people work together / behave in groups/ treat each other
 - Involved in projects that break down because of communication
 - Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Hopefully something you didn't know too!
+- Plus if you already know this stuff - hopefully I'll make you feel good about what you are already doing.
 
 ---
 
@@ -77,7 +78,7 @@ Note:
 - 5 problems common to software projects
 - Didn't all go swimmingly .. This is what worked well.
 
-+++
+---
 
 ## We need beginners
 
@@ -108,7 +109,7 @@ Note:
 - Much of engineering constraints taken care of by constraints of Elm
 - No more need to know how ot configure a postfix server than we do need to know how to write safe js in order to be good at our jobs (Charlie star inn)
 
-+++
+---
 
 ## Everyone's voice 
 
@@ -123,61 +124,102 @@ Note:
 +++
 
 ## Team style not indy style
-- Declarative style of Elm allows people to discover own "how". Many routes to same endpoint. Give everyone ownership of own journey - don;t instruct people on how, give them a framework that guides them.
+
+Note:
+- Declarative style of Elm allows people to discover own "how". Many routes to same endpoint. Give everyone ownership of own journey - don't instruct on how, give them a framework that guides them.
 - MOVE? (Remember - some things are easy for some people "Even a female baby could do that!")
-- MOVE? If you label something as X... people will be lazy about assigning value/ use cases to it. If you don't label, people use own experience/ imagination.
 - More people in the team means less burden on the individual. can be outside of core team and be there for bouncing ideas off occassionally or jump in when deadlines loom.
 - We don't often put user needs of devs to top priority of scoping. e.g. better install docs, less assumptions of project specific knowledge
 
 +++
 
 ## Different perspectives
-- Everyone's voice is valid. Sometimes with less knowledge, we can point out a much simpler way. Especially if we are looking at a small part of the big picture in collaboration. More overview sometimes makes it seem more complicated than it needs to be.
+
 - CODE: Tick / Sync model - Nick mentioned, then 2 years later elm EU games
+
+Note:
+- Everyone's voice is valid. Sometimes with less knowledge, we can point out a much simpler way. Especially if we are looking at a small part of the big picture in collaboration. More overview sometimes makes it seem more complicated than it needs to be.
+
+---
+
+## Language forms culture
+- PIC: Labels can be confusing. "I'm not a rockstar?", "Kev the German", "Brain size of planet", "Gnome", "ninja". Team without labels is just "team"
+- T18n in E1m...
+
+Note:
+- If you label something as X... people will be lazy about assigning value/ use cases to it. If you don't label, people use own experience/ imagination.
+- Rockstars: veteran = learned stuff over time, bit by bit = unforgettable knowledge, baby = natural skill, self tagged = someone who doesn't know what tey don't know, boss tagged = pressure to cover gaps in knowledge / keep up appearabce of deep knowledge.
+- base 64, a11y, i18n - wanted to call this talk ... but pointed out no one would get the joke
+- Why does community encourage people to hide knowledge or guard it or hide lack of knowledge/ Academic culture suffers this
+- If some behaviour is totaly unacceptable, maybe there is a gentle guide way rather than a slam. We all mean well.
 
 +++
 
-## Language forms culture
-- Labels can be confusing. "I'm not a rockstar?", "Kev the German", "Brain size of planet", "Gnome", "ninja". Team without labels is just "team"
-- Rockstars: veteran = learned stuff over time, bit by bit = unforgettable knowledge, baby = natural skill, self tagged = someone who doesn't know what tey don't know, boss tagged = pressure to cover gaps in knowledge / keep up appearabce of deep knowledge.
-- Why does community encourage people to hide knowledge or guard it or hide lack of knowledge/ Academic culture suffers this
-- If some behaviour is totaly unacceptable, maybe there is a gentle guide way rather than a slam. We all mean well.
-- Elm encourages unclusivity / collaboration. Supportive compiler etc... mitigates fear of failure and makes us more equal (Emma Elm EU)
+## Elm encourages inclusivity & collaboration.
+
+Note:
+- Supportive compiler etc... mitigates fear of failure and makes us more equal (Emma Elm EU)
 - Elm good language for communicating ideas to different types of "expertese" or "experience" (Jono Elm EU)
 - Prototyping in paper means you don't have to "get it right" the first time. Elm has that too. Trainee never coded before, confident to let them loose. Hardly had to explain anything.
 - What's better? (ref elm-lang slack ~25 Aug) "oh, no this is too difficullt for you" or "sure, let me explain"
 - conclusion - If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
 
-+++
+---
 
 ## Code for people
-- We are humans, not robots. Our efficiancy needs are different to theirs. PIC - "Mum you are not a computer"
+- "Mum you are not a computer"
+- "OK, thanks google."
+- PIC: schedule note
+
+Note:
+- We are humans, not robots. Our efficiancy needs are different to theirs.
 - Think about the future readers and writers of your codebase
 - refactor/ review should focus on maknig easier for everyone
+
++++
+
+## Send "You got this" to future us
+
 - CODE: Functional peices are atomic. Someone can fix/ implement a part without knowing the whole. No hidden effects, nuances.
 - CODE: Easy to read the code and see what it does. No behind the scenes functional magic. More predicatble. the only magic is turning it into js.
 - CODE: Invest time in modelling your use case up front. Noisy boiler plate not always helpful.
-- experienced developers have more trouble reading Elm than beginners
+
+Note:
+- Ironically, experienced developers seem to have more trouble reading Elm than beginners
+- Let's try to make them less suspicious / guarded
 - Elm makes people friendsly code - good for beginners, teams + future for evey project no matter level of experience/ time.
-
-+++
-
-## Nature of bugs
-- PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
-- Translation framework turned out to be a useful step on way to branding
-- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
-- CODE: syntax error in json ended up in release - manual testor visited the page. Similar error was causgt at deploy with Elm... still got merged in.
-- CODE: react vs Elm vs vue vs drupal i18n - json is hard to read, database is a comlpicated abstraction to keep in sync
-- CODE: Olso Elm rakuten - emoji trick for missing translations
-- CODE: Naming stuff is hard, refactoring in Elm is easy. Demo search replace in another language + use Keys file evolution
 
 ---
 
-## Started to see the light...
-- Posing some quesstions we can all think about... first raise hands if anyone evern cried or made someone cry as a result of how project was going.
-- Started making a list of things I want to explore about how we can work in teams better... Questions started asking myself - turn into questions.
-- Starts to make you happy sooner. With other languages/ frameworks, there is a lot more head banging and theory before we can reach the happy point.
-- We are all trynig to be our professional best. Give each other a break. Rupert's code review tips.
+## Nature of bugs
+- PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
+- CODE: syntax error in json ended up in release - manual testor visited the page. Similar error was causgt at deploy with Elm... still got merged in.
+
++++
+
+## Verbose can be good
+
+- Translation framework turned out to be a useful step on way to branding
+- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
+- CODE: react vs Elm vs vue vs drupal i18n - json is hard to read, database is a comlpicated abstraction to keep in sync
+- CODE: Olso Elm rakuten - emoji trick for missing translations
+
++++
+
+## Naming stuff blah, blah, blah...
+
+- CODE: Naming stuff is hard, refactoring in Elm is easy. Demo search replace in another language + use Keys file evolution
+
+Note:
+True - decisions are hard.
+Jam study?
+
+---
+
+## Only just Starting to see the (Elm) light...
+- Starts to make you happy<!-- .element class="fragment" data-fragment-index="1" -->
+- ...sooner<!-- .element class="fragment" data-fragment-index="2" -->
+- We are all trynig to be our professional best. Give each other a break.
 - Single track hierarhies are meaningless. We all have parallel skills etc. We are building a compilatoin, not a tower.
 - We all want to be great at something and it should not matter what that something is.
 - If everyone had to know everything to acheive success... nonsense, you don't need to know chemistry to bake a cake, but it might help you invent a better one.
@@ -188,12 +230,14 @@ Note:
 - Joy evidence from slack/ github/ pull requests around being included and writing code.
 - I realised: All different people with different knowledge, interests and levels of experience
 - easy to hurt each other's feelings / judge each other's tech
-- base 64, a11y, i18n
 - the project lead is probably not the best at anything
 - Together we can build a thing, right?
 
 Note:
-- Starts to make you happy... sooner
+- Starts to make you happy sooner. My wise colleague ponited out that you get happy With other languages/ frameworks too, but there is a lot more head banging and theory before we can reach the happy point.
+- Started making a list of things I want to explore about how we can work in teams better... Questions started asking myself - turn into questions.
+- Posing some quesstions we can all think about... first raise hands if anyone evern cried or made someone cry as a result of how project was going.
+- Give each other a  break: Rupert code review tips.
 
 +++
 
@@ -203,5 +247,6 @@ Note:
 - no one should feel left out - let's work on inclusivity <!-- .element class="fragment" data-fragment-index="3" -->
 
 Note:
--
-
+- We all feel dumb and vulnerable sometimes. The important thing is not to box others in or judge them.
+- Ignorance is a universal condition - no one knows everything.
+- Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone that finds themselves next to us in this space, not matter what their journey here.
