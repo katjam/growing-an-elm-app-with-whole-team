@@ -110,15 +110,28 @@ Note:
 
 +++
 
-## Everyone's voice - team style not indy style
+## Everyone's voice 
+
+PIC: code going in circles - output same.
+
+Note:
 - CODE: Collaboration means everything should not be in your style and the project's style should evolve
 - PIC: Tom after a year - seems like all we do every day is go round in circles rewriting each other's code in our own style
 - What is the value in being competative? Co-production is the opposite of heroic leadership.)
+- Maybe you come to the code and don't understand. Ask.
+
++++
+
+## Team style not indy style
 - Declarative style of Elm allows people to discover own "how". Many routes to same endpoint. Give everyone ownership of own journey - don;t instruct people on how, give them a framework that guides them.
 - MOVE? (Remember - some things are easy for some people "Even a female baby could do that!")
 - MOVE? If you label something as X... people will be lazy about assigning value/ use cases to it. If you don't label, people use own experience/ imagination.
 - More people in the team means less burden on the individual. can be outside of core team and be there for bouncing ideas off occassionally or jump in when deadlines loom.
 - We don't often put user needs of devs to top priority of scoping. e.g. better install docs, less assumptions of project specific knowledge
+
++++
+
+## Different perspectives
 - Everyone's voice is valid. Sometimes with less knowledge, we can point out a much simpler way. Especially if we are looking at a small part of the big picture in collaboration. More overview sometimes makes it seem more complicated than it needs to be.
 - CODE: Tick / Sync model - Nick mentioned, then 2 years later elm EU games
 
