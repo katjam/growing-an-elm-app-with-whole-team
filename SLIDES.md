@@ -1,52 +1,62 @@
 # Growing an Elm app with the whole team
 ![](img/team-pic.png)
-PIC: team
-
-What we learned about each other on the journey
+PIC: team non-descript but working in silos
 
 ---
 
 ## Katja Mordaunt
 ![](img/neontribe-logo.png)
 
-- Developer for over a decade
-- Previously worked in another industry
-- Had some kids
-- Noticed some things about how we work together and how we treat each other
-- "Be nice" might be a boring message but I'm hoping to demonstrate why we need to say it.
-- A lot of my talk will be common sense - but the point of it is to give teams and people the confidence to make the effort to enforce a "be nice" atmosphere and some practical tips on how and why.
-- What follows is a based on real events, but not the real people...
+
 
 Note:
-- Intro me
+**JOURNEY to here --> why I care about leading good teams**
+- Developing software in small teams for over a decade - alongside parenting
+- Noticed some things about how people work together / behave in groups/ treat each other
+- Involved in projects that break down because of communication
+- Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Hopefully something you didn't know too!
+- Practical tips, how and why Elm helps
 
 ---
 
 ## 2 years ago...
 
-- How I got to Elm 2 years ago - basically was suspiscious/ terrified of javascript
-- We had some ups and downs but we built a thing
-- PIC: haven site with some code
+PIC: New project! Path to framework choice...
 
 Note:
-- set up how started
+**Set up how I got to Elm**
+- Suspiscious of js following some jquery and angular projects
+- Not confident I wouldn't make a mess
+- Same time was playing with colojure and haskell and feeling like funtional was a safe / predictable space
+- PIC: haven't looked back since. Someone mentioned Elm
+
++++
+
+## So we're going with Elm?
+
+PIC: haven site with some code
+
+Note:
+**Had some ups and downs, but be built a thing**
+- Learn to trust each other's tech - and knowlegde
+- Unfortunately not everyone agreed with me and we tied the project off - released and on the shelf.
 
 +++
 
 ## All happily going about our work
-- One year on... Success... remote lead need to roll out clones, no developers available
-- My available team - labeled
-- PIC: 10x engineer, rockstar, gnome - all busy... manager thinks we need to port the app!
-- "Is there anything anyone needs help with?" Eureka
-- funded project user research took a lot longer than expected with charity ...
+
+PIC: The team with labels busy and silos (Server Gnome, Javascript Ninja, Rockstar Dev, Junior Illustrator)
+
+"Is there anything anyone needs help with?" - Junior Illustrator <!-- .element class="fragment" data-fragment-index="1" -->
 
 Note:
-- success, now make some more
-
-+++
-
-## Knowledge?
-
+- **One year on - Success, now make some more**
+- Translate the original &
+- funded project user research took a lot longer than expected with charity ...
+- Working with charity partners - user research took longer due to delays in comms
+- Remote lead to roll out clones, no developers available
+- Upgrade to 19 - Manager I think we can handle the transation & upgrade but we better port the app to js for the clones so more people can work on it
+- Yes! There is something I need help with.
 
 ---
 
@@ -147,7 +157,7 @@ Note:
 +++
 
 ## What we can do as a community
-- labels don't help - let's stop using them <!-- .element class="fragment highlight-blue" data-fragment-index="1" -->
+- labels don't help - let's stop using them
 - the variety of our knowledge is valuable - let's keep learning and sharing<!-- .element class="fragment highlight-yellow" data-fragment-index="2" -->
 - no one should feel left out - let's work on inclusivity <!-- .element class="fragment highlight-red" data-fragment-index="3" -->
 
