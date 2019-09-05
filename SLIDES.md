@@ -52,6 +52,7 @@ PIC: The team with labels busy and silos (Server Gnome, Javascript Ninja, Rockst
 
 "Is there anything anyone needs help with?" - Junior Illustrator <!-- .element class="fragment" data-fragment-index="1" -->
 
+
 Note:
 **See original notes here**
 - **One year on - Success, now make some more**
@@ -65,7 +66,7 @@ Note:
 ---
 
 
-## Stumbling down the path...
+## Stumbling down the path together...
 PIC: github?
 
 Note:
@@ -78,15 +79,34 @@ Note:
 
 +++
 
+## We need beginners
+
+- What do new team members need to know<!-- .element class="fragment" data-fragment-index="1" -->
+- Check in regularly<!-- .element class="fragment" data-fragment-index="2" -->
+- Set guidelines for Pull Request review<!-- .element class="fragment" data-fragment-index="3" -->
+
+
+Note:
+- Projects will always need beginners - keep healthy fresh perspectives coming in.
+- Common sense
+- TICK: Keep minimal - what new team members need to know
+- TICK: Have short converstions often
+- TICK: Easier in Elm. Gives newcomers more confidence. (e.g. changes to the model, does it introduce duplication? feldman elm conf 2018, naming Ally Elm 2018, unipod strategy elm eu 2019)
+- https://speakerdeck.com/izumisy/our-journey-with-the-biggest-elm-app-in-japan?slide=30
+
++++
+
 ## Beginners welcome
-- CODE: psuedo code and placeholders are great - with a few rules, none of that will make it to production.
-- CODE: New developers and non-developers productive quickly. Why/ how Elm helps. relatedInfo == example?
-- Process for onboarding team members - what do they need to know?
-- Pull request review guidelines. easier in Elm. Gives newcomers more confidence. (e.g. changes to the model, does it introduce duplication? feldman elm conf 2018, naming Ally Elm 2018, unipod strategy elm eu 2019)
+- CODE: psuedo stubs
+- CODE: debugging
+
+Note:
 - London Elm code night woman - "Only coding meetup that said beginners welcome"
+- TICK: psuedo code and placeholders are great - with a few rules, none of that will make it to production.
+- TICK: New developers and non-developers productive quickly. Why/ how Elm helps. relatedInfo == example?
+- Elm framework does not get in the way - easy to set up - no millions of files to navigate round.
+- Much of engineering constraints taken care of by constraints of Elm
 - No more need to know how ot configure a postfix server than we do need to know how to write safe js in order to be good at our jobs (Charlie star inn)
-- REMOVE?: (Elm framework does not get in the way)
-- REMOVE?: (Much of engineering constraints taken care of by constraints of Elm)
 
 +++
 
