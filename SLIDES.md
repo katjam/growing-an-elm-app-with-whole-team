@@ -26,6 +26,8 @@ PIC: New project! Path to framework choice...
 - front: jquery, handlebars, angular, vue -> elm
 
 Note:
+- Usually projects have lead front and lead back
+- No backend...
 - Suspiscious of js following some jquery and angular projects
 - Not confident I wouldn't make a mess
 - Same time was playing with clojure and haskell and feeling like funtional was a safe / predictable space
@@ -73,9 +75,9 @@ Note:
 - A user researcher with a maths degree who'd done a bit of coding and had lots of experience in the charity sector.
 - A junior illustrator who wanted to help (recent arts graduate)
 - A Storyteller / copywriter 
-- Might work if we do it like this? Github set up.
-- 5 problems common to software projects
-- Didn't all go swimmingly .. This is what worked well.
+- FIX Might work if we do it like this? Github set up.
+- FIX 5 problems common to software projects
+- FIX Didn't all go swimmingly .. This is what worked well.
 
 ---
 
@@ -89,6 +91,7 @@ Note:
 
 
 Note:
+- FIX (Beginners in our teams and newcomers to our community)
 - Projects will always need beginners - keep healthy fresh perspectives coming in.
 - Common sense tips
 - TICK: Keep minimal - what new team members need to know
@@ -100,8 +103,8 @@ Note:
 +++
 
 ## Beginners welcome
-- CODE: psuedo stubs
-- CODE: debugging
+- CODE: psuedo stubs<!-- .element class="fragment"-->
+- CODE: debugging<!-- .element class="fragment" -->
 
 Note:
 - London Elm code night woman - "Only coding meetup that said beginners welcome"
@@ -184,14 +187,17 @@ Note:
 
 ## Send "You got this" to future us
 
-- CODE: Functional peices are atomic. Someone can fix/ implement a part without knowing the whole. No hidden effects, nuances.
-- CODE: Easy to read the code and see what it does. No behind the scenes functional magic. More predicatble. the only magic is turning it into js.
-- CODE: Invest time in modelling your use case up front. Noisy boiler plate not always helpful.
+- CODE: Functional peices are atomic<!-- .element class="fragment" -->
+- CODE: Easy to read the code and see what it does<!-- .element class="fragment" -->
+- CODE: Invest time in modelling your use case up front<!-- .element class="fragment" -->
 
 Note:
 - Ironically, experienced developers seem to have more trouble reading Elm than beginners
 - Let's try to make them less suspicious / guarded
 - Elm makes people friendsly code - good for beginners, teams + future for evey project no matter level of experience/ time.
+- TICK: Someone can fix/ implement a part without knowing the whole. No hidden effects, nuances.
+- TICK:No behind the scenes functional magic. More predicatble. the only magic is turning it into js.
+- TICK: Noisy boiler plate not always helpful.
 
 ---
 
