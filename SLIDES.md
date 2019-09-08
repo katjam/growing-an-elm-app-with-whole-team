@@ -10,7 +10,7 @@ I like being nice & getting good stuff done.
 
 
 Note:
-- Developing software in small teams for over a decade with Neontribe. We build digital tools that compliment over-stretched services in the charity sector.
+- Developing software in small teams for over a decade with Neontribe. We build work a lot with non-profits to build digital tools that compliment their over-stretched services.
 - I've also been rasing children for a quarter of a century and dabbled in other industries.
 - I've noticed some things about how people work together/ behave in groups/ treat each other & been involved in projects that break down because of communication
 - Going to share some practical tips - how and why Elm helps make happier, more productive teams
@@ -113,7 +113,8 @@ Note:
 - Elm framework does not get in the way - easy to set up - no millions of files to navigate round.
 - Much of engineering constraints taken care of by constraints of Elm
 - No more need to know how ot configure a postfix server than we do need to know how to write safe js in order to be good at our jobs (Charlie star inn)
-
+- FIX split this into beginners to code and to community...
+- FIX - Holly story here is: how to talk about code & PR guidance.
 ---
 
 ## Everyone's voice 
@@ -124,7 +125,7 @@ Note:
 - PIC: Tom after a year - seems like all we do every day is go round in circles rewriting each other's code in our own style
 - What is the value in being competative? Co-production is the opposite of heroic leadership.
 - Maybe you come to the code and don't understand. Ask.
-
+- FIX Holly story is "because of Tom's experience, I was careful to let them do it their way"
 +++
 
 ## Team style not indy style
@@ -145,7 +146,7 @@ Note:
 
 Note:
 - Everyone's voice is valid. Sometimes with less knowledge, we can point out a much simpler way. Especially if we are looking at a small part of the big picture in collaboration. More overview sometimes makes it seem more complicated than it needs to be.
-
+- FIX - Find Holly's thread? Or is this still the Team style one?
 ---
 
 ## Language forms culture
@@ -157,6 +158,8 @@ Note:
 - Rockstars: veteran = learned stuff over time, bit by bit = unforgettable knowledge, baby = natural skill, self tagged = someone who doesn't know what tey don't know, boss tagged = pressure to cover gaps in knowledge / keep up appearance of deep knowledge.
 - base 64, a11y, i18n - wanted to call this talk ... but pointed out no one would get the joke
 - If some behaviour is totaly unacceptable, maybe there is a gentle guide way rather than a slam. We all mean well.
+- FIX- remove / reshuffle. This and the next section (ELm (Lang & community) - didn't flow.
+- FIX - find Holly's thread
 
 +++
 
@@ -168,6 +171,7 @@ Note:
 - Elm good language for communicating ideas to different types of "expertese" or "experience" (Jono Elm EU)
 - Prototyping in paper means you don't have to "get it right" the first time. Elm has that too. Trainee never coded before, confident to let them loose. Hardly had to explain anything.
 - conclusion - If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
+- FIX - combine with Language/ culture - focus on labels and knowledge
 
 ---
 
@@ -181,7 +185,9 @@ Note:
 - From the lists I made when I was a kid, I'm not so sure...
 - But we do need to remember we are humans, not robots. Our efficiancy needs are different to theirs.
 - Think about the future readers and writers of your codebase
-- refactor/ review should focus on maknig easier for everyone
+- refactor/ review should focus on making easier for everyone
+- The people matter more than the cleverness of the code.
+-  FIX - Holly's thread... would she find this? Or that easier?
 
 +++
 
@@ -204,6 +210,7 @@ Note:
 ## Nature of bugs
 - PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
 - CODE: syntax error in json ended up in release - manual testor visited the page. Similar error was caught at deploy with Elm... still got merged in.
+- FIX Holly's story is the syntax error from before editor installed.
 
 +++
 
@@ -217,12 +224,15 @@ Note:
 - CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
 - CODE: react vs Elm vs vue vs drupal i18n - json is hard to read, database is a comlpicated abstraction to keep in sync
 - CODE: Olso Elm rakuten - emoji trick for missing translations
+- FIX - combine wth another section? Holly's story?
 
 +++
 
 ## Naming stuff blah, blah, blah...
 
 - CODE: Naming stuff is hard, refactoring in Elm is easy. Demo search replace in another language + use Keys file evolution
+- FIX - Holly's story let the names start off how they think of them and evolve naturally
+- FIX - Talking about it and letitng them choose helps you nuderstand how much your colleague understands
 
 Note:
 True - decisions are hard.
@@ -241,7 +251,9 @@ Note:
 - At Elm europe I was trying to explain to someone why I like using Elm...
 - TICK: My colleague ponited out that you get happy With other languages/ frameworks too, but there is a lot more head banging and theory before we can reach the happy point.
 
-- **Before next** raise hands if you've ever gotten upset or made someone upset - or even cry as a result of how project was going.
+- **Before next** Pretty sure every one in the room has experienced ...gotten upset or made someone upset - or even cry as a result of how project was going & how your team was communicating.
+- I want to share some questions with you that I've been asking myself.
+- I can't tell you what the answers are for you and your situation. But I think it's worth taing some time to think about them in the context of your own teams and projects.
 
 ---
 
@@ -283,6 +295,8 @@ Note:
 - no one should feel left out - let's work on inclusivity <!-- .element class="fragment" data-fragment-index="3" -->
 
 Note:
-- We all feel dumb and vulnerable sometimes. The important thing is not to box others in or judge them.
-- Ignorance is a universal condition - no one knows everything.
-- Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone that finds themselves next to us in this space, no matter what their journey here.
+- TICK: We all feel dumb and vulnerable sometimes. The important thing is not to box others in or judge them.
+- TICK: Ignorance is a universal condition - no one knows everything.
+- TICK: Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone that finds themselves next to us in this space, no matter what their journey here.
+-
+- FIX add readme with links to the talks and resources mentioned.
