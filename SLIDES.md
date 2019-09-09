@@ -3,7 +3,6 @@
 
 ---
 
-1
 ## Katja Mordaunt
 ![](img/neontribe-logo.png)
 
@@ -20,7 +19,6 @@ Note:
 
 ---
 
-2
 ## 2 years ago...
 
 PIC: New project! Path to framework choice...
@@ -37,7 +35,6 @@ Note:
 
 +++
 
-3
 ## So we're going with Elm?
 
 PIC: haven site with some code & elm seasons
@@ -49,11 +46,10 @@ Note:
 
 +++
 
-4
 ## All happily going about our work
 ![](img/labelled-team.jpg)
 
-"Is there anything anyone needs help with?" - Junior Illustrator <!-- .element class="fragment" data-fragment-index="1" -->
+"Is there anything anyone needs help with?" - Illustrator <!-- .element class="fragment" data-fragment-index="1" -->
 
 
 Note:
@@ -68,9 +64,9 @@ Note:
 
 ---
 
-5
 ## Stumbling down the path together...
-![](img/holly.jpg)<!-- .element class="fragment" -->with Holly!
+![](img/holly.jpg)<!-- .element class="fragment" -->
+- with Holly!<!-- .element class="fragment" -->
 
 Note:
 - Historically - we were developer skilled - but all from backgrounds
@@ -83,7 +79,6 @@ Note:
 
 ---
 
-6
 ## Beginners welcome
 
 
@@ -105,14 +100,14 @@ Note:
 - Now that we had Holly on board - Common sense tips
 - TICK: Keep minimal - what new team members need to know
 - TICK: Have short converstions often
-- TICK: Code review for beginnres easier in Elm. Guidelines give newcomers more confidence. (e.g. changes to the model, does it introduce duplication? feldman elm conf 2018, naming Ally Elm 2018, unipod strategy elm eu 2019)
+- TICK: Code review for beginnres easier in Elm. Guidelines give newcomers more confidence. (e.g. changes to the model, does it introduce duplication? Richard Feldman elm conf 2018, naming Ally Kelly McKnight Elm 2018, 	
+Seiya Izumi Code review strategy elm eu 2019)
 - https://speakerdeck.com/izumisy/our-journey-with-the-biggest-elm-app-in-japan?slide=30
-- TICK: Felienne how code sounds
+- TICK: Felienne Hermans how code sounds
 
 
 +++
 
-7
 ## Brand new to coding
 
 PIC: or text TODO
@@ -131,7 +126,6 @@ TODO: What point are these for?
 
 ---
 
-8
 ## Everyone's voice 
 PIC: code going in circles - output same. TODO<!-- .element class="fragment" -->
 Comment and code review examples<!-- .element class="fragment" -->
@@ -149,7 +143,6 @@ Note:
 
 +++
 
-9
 ## Team style not indy style
 
 <blockquote>"You must have faith in your colleagues' competence and good intentions. Very likely the problem you perceive is an indication of tradeoffs you don't yet understand" - Rupert (Neontribe)</blockquote>
@@ -163,7 +156,6 @@ Note:
 
 +++
 
-10
 ## Different perspectives
 
 - CODE: Tick / Sync model - Nick mentioned, then 2 years later elm EU games
@@ -177,7 +169,6 @@ Note:
 
 ---
 
-11
 ## Language forms culture
 ![](img/labelled-team.jpg)
 
@@ -200,20 +191,18 @@ Note:
 
 +++
 
-12
 ## Elm (language and the community) encourages inclusivity & collaboration
 - Instead of "oh, no, this is too difficult for you" we say "Sure, let me explain"
 
 Note:
-- Supportive compiler etc... mitigates fear of failure and makes us more equal (Emma Elm EU)
-- Elm good language for communicating ideas to different types of "expertese" or "experience" (Jono Elm EU)
+- Supportive compiler etc... mitigates fear of failure and makes us more equal (Emma Cunningham Elm EU)
+- Elm good language for communicating ideas to different types of "expertese" or "experience" (Jono Mallanyk Elm EU)
 - Prototyping in paper means you don't have to "get it right" the first time. Elm has that too. Trainee never coded before, confident to let them loose. Hardly had to explain anything.
 - conclusion - If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
 - TODO - combine with Language/ culture - focus on labels and knowledge
 
 ---
 
-13
 ## Code for people
 - "Mum you are not a computer"
 - "OK, thanks google."
@@ -231,12 +220,11 @@ Note:
 
 +++
 
-14
 ## Send "You got this" to future us
 
-- CODE: Functional pieces are atomic<!-- .element class="fragment" -->
-- CODE: Easy to read the code and see what it does<!-- .element class="fragment" -->
-- CODE: TODO - fix this examlpe... another tick? Invest time in modelling your use case up front<!-- .element class="fragment" -->
+- Functional pieces are atomic<!-- .element class="fragment" -->
+- Easy to read the code and see what it does<!-- .element class="fragment" -->
+- TODO - fix this example... another tick? Invest time in modelling your use case up front<!-- .element class="fragment" -->
 
 Note:
 - It applies to all of us, not just people who are new to coding.
@@ -252,7 +240,6 @@ Note:
 
 ---
 
-15
 ## Nature of bugs
 - CODE: syntax error in json ended up in release
 - PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
@@ -264,7 +251,6 @@ Note:
 
 +++
 
-16
 ## Naming stuff blah, blah, blah...
 - CODE: Naming stuff is hard, refactoring in Elm is easy. Demo search replace in another language + use Keys file evolution
 - TODO specific example of naming conventions?
@@ -278,7 +264,6 @@ Jam study?
 
 +++
 
-17
 ## Verbose can be good
 TODO remove this whole thing.
 - CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
@@ -292,7 +277,6 @@ Note:
 
 ---
 
-18
 ## It starts to make you happy...
 Elm starts to make you happy<!-- .element class="fragment" data-fragment-index="1" -->
 
@@ -311,7 +295,6 @@ Note:
 
 ---
 
-19
 ### How can we create spaces and cultures where we don't feel pressure to appear to "be the best at everything, all the time"?
 
 Note:
@@ -322,7 +305,6 @@ Note:
 
 +++
 
-20
 ### How can we improve the democracy of our collaborations?
 
 Note:
@@ -334,7 +316,6 @@ Note:
 
 +++
 
-21
 ### Do labels and job roles prevent us from sharing knowledge openly?
 
 Note:
@@ -344,7 +325,6 @@ Note:
 
 +++
 
-22
 ## What we can do as a community
 - labeling each other probably doesn't help - let's stop doing it<!-- .element class="fragment" data-fragment-index="1" -->
 - the variety of our knowledge is valuable - let's keep learning and sharing <!-- .element class="fragment" data-fragment-index="2" -->

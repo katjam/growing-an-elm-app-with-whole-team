@@ -52,14 +52,14 @@ body {
   color: #eee8d5;
   font-family: "League Gothic", Impact, sans-serif;
   font-weight: normal;
-  line-height: 1.2;
+  line-height: 1;
   letter-spacing: normal;
   text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 3.77em; }
+  font-size: 3.5em; }
 
 .reveal h2 {
   font-size: 2.11em; }
