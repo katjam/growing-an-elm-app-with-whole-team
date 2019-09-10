@@ -10,12 +10,12 @@ I like being nice & getting good stuff done.
 
 
 Note:
-- Developing software in small teams for over a decade with Neontribe. We work a lot with non-profits to build digital tools that compliment their over-stretched services.
-- I've also been rasing children for a quarter of a century and dabbled in other industries.
-- I've noticed some things about how people work together/ behave in groups/ treat each other & been involved in projects that break down because of communication
+- Developing software in small teams over decade with Neontribe. Work with non-profits to build digital tools that compliment their over-stretched services
+- also raising children for a 1/4 century & dabbled industries
+- Noticed things about how people work together/ behave in groups/ treat each other& been involved in projects that break down because of communication
 - Going to share some practical tips - how and why Elm helps make happier, more productive teams
-- Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Hopefully something you didn't know too!
-- Besides if you already know this stuff - I'll make you feel good about what you are already doing.
+- Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Maybe I'll say something didn't know too!
+- Anyway if you know all this stuff - I'll make you feel good about what you are already doing.
 
 ---
 
@@ -44,7 +44,7 @@ TODO: evolve haven site with some code & elm seasons
 Note:
 **Had some ups and downs, but we built a thing**
 - We had convresations around Elm being the wrong tool / over-engineering
-- Learn to trust each other's tech - and knowlegde & ability to evaluate and make choices in good faith
+- Made me reflect that we need to learn to trust each other's tech - and knowlegde & ability to evaluate and make choices in good faith
 - I tried to explain that - yes Elm can make more complex apps safer but it's also a solid foundaiton for any UI
 - Unfortunately not everyone agreed with me but we shipped... and most of the company forgot about it.
 
@@ -55,9 +55,7 @@ Note:
 
 "Is there anything anyone needs help with?" - Illustrator <!-- .element class="fragment" data-fragment-index="1" -->
 
-
 Note:
-**See original notes here**
 - **One year on - Success, now make some more**
 - Translate the original & roll out some clones
 - Upgrade to 19 - Manager I think we can handle the translation & upgrade
@@ -76,10 +74,11 @@ with Holly!<!-- .element class="fragment" -->
 
 Note:
 - Historically Neontribe - was a bunch of developers - but all from backgrounds
-- We filled in the non-developer jobs, but recently, hired a few people with little to no coding experience.
-- So we set off with myself and another developer with very little time here and there
-- We got a user researcher with a maths degree who'd done a bit of coding and had lots of experience in the charity sector - to lead the discovery and liaise with clients
-- And of course, Holly a recent arts graduate and illustrator who wanted to help
+- We filled in the non-developer jobs, but recently, hired a few people with little to no coding experience to support us with those tasks.
+- Those new hires were the ones who had a bit more time on their hands. So we set off:
+- We had a user researcher with a maths degree who'd done a bit of coding and had lots of experience in the charity sector - to lead the discovery and liaise with clients
+- Myself and the other developer who'd worked on the original app
+- TICK: and of course, Holly a recent arts graduate and illustrator who wanted to help
 - We hit all the same problems every software project has...
 - It didn't all go swimmingly .. but this is what worked well and how Holly helped me reflect on where our process could be better
 
@@ -89,8 +88,14 @@ Note:
 We need beginners in our community and in our teams
 
 Note:
-- London Elm code night woman - "Only coding meetup that said beginners welcome"
-- Projects will always need beginners - keep healthy fresh perspectives coming in.
+- Few months ago a woman turned up at London Elm Code night
+- She'd been making websites in the 90's and taken a break to her kids.
+- Her kids had been encouraging her for the past year or so to get back into coding.
+- She'd signed up to emails for lots of events & coding meetups but didn't have the confidence to go to any.
+- Until she saw the Elm Code night reminder. Aparently the only one of all those mailings about coding expliitly said "beginners welcome" So she plucked up the courage and came along.
+- Wasn't what she was expecting - but it worked out. We gave her an overview of where we are now in the industry.
+- Afterwards I spoke to mario one of organisers about whether we should clarify - but we agreed that no, it was perfect to have people like her coming along.
+- Healthy communities and projects need newcomers with fresh perspectives.
 
 +++
 
@@ -114,7 +119,7 @@ Seiya Izumi Code review strategy elm eu 2019)
 
 ## Brand new to coding
 
-PIC: TODO, list all the overwhlmeing things about setting up environs.
+PIC: TODO, img all the overwhlmeing things about setting up environs.
 - mac, windows, linux, which linux, vs code, sublime, atom
 - node, nvm, yarn, git...
 - Elm + text editor<!-- .element class="fragment" -->
@@ -122,38 +127,42 @@ PIC: TODO, list all the overwhlmeing things about setting up environs.
 Note:
 - When Holly first joined the project - she didn't have a dev environment set up.
 - But I didn't think that should be a barrier.
-- Afterall it's only text and the first few issues were editing that text.
 - I even got our testing manager to submit directly to github when noticed there were no issue templates in place.
+- Afterall it's only text and the first few issues were editing existing copy.
 - TICK: New developers and non-developers productive quickly. Why/ how Elm helps
-- Elm framework does not get in the way - easy to set up - no millions of files to navigate round.
+- Elm framework does not get in the way - easy to set up - no massive boilerplate to navigate round, no complicated toolchain to understand.
 - No more need to know how ot configure a postfix server than we do need to know how to write safe js in order to be good at our jobs
 
 ---
 
-## TODO Everyone's voice 
-PIC: code going in circles - output same. TODO<!-- .element class="fragment" -->
-Comment and code review examples<!-- .element class="fragment" -->
-TODO check these and next (2) are right notes & right order.
+## Everyone's voice 
+TODO Holly PR example<!-- .element class="fragment" -->
+TODO Code review looks good :thumbsup:<!-- .element class="fragment" -->
+![](img/pr-conversation.png)<!-- .element class="fragment" -->
+
 
 Note:
-- Once Holly was set up - she started submitting more than just text changes.
+- TICK: Once Holly was set up - she started submitting more than just text changes.
 - I remembered a time when another colleague had been coding for about a year - one day he said - seems like all we do every day is go round in circles rewriting each other's code in our own style
-- Sometimes these refectors are important and sometimes they aren't. As with everything i am saying - the important thing is to consider what you are doing and why - in the context of your circumstance.
+- Sometimes these refectors are important and sometimes they aren't. As with everything I am saying - the important thing is to consider what you are doing and why - in the context of your circumstance.
 - "because of Tom's experience, I was careful to try and let her do it her way"
-- CODE: Collaboration means everything should not be in your style and the project's style should evolve
+- Collaboration means everything should not be in your style and the project's style should evolve
 - What is the value in being competative? Collaboration is the opposite of heroic leadership.
-- TICK: Maybe you come to the code and don't understand. Ask.
-- We talked about not being afraid to write more than "Looks good" + emoji in code reviews
+- TICK: We talked about not being afraid to write more than "Looks good" + emoji in code reviews
+- She got more confident in her responses.
+- TICK: Sometimes you come across code you don't understand - don't rewrite it or ignore it - Ask about it.
 
 +++
 
-## TODO Team style not indy style
+## Team style not indy style
 
 <blockquote>"You must have faith in your colleagues' competence and good intentions. Very likely the problem you perceive is an indication of tradeoffs you don't yet understand" - Rupert (Neontribe)</blockquote>
 
 Note:
 - Declarative style of Elm allows people to discover own "how". Many routes to same endpoint. Give everyone ownership of own journey - don't instruct on how, give them a framework that guides them.
-- When Holly comes back to this codebase in 6 months or a year, she'll appreciate that she had a hand in these decisions.
+- When Holly comes back to this codebase in 6 months or a year, she'll appreciate that she had a hand in these decisions - and that she was allowed to wander a bit..
+- We don't often take perfect path first time round, nor do we often take decisions without thinking.
+- My colleague Rupert sums that up...
 - More people in the team means less burden on the individual. can be outside of core team and be there for bouncing ideas off occassionally or jump in when deadlines loom.
 - Remember that sometimes things made along time ago or in a hurry (there's always a story)
 - We are all capable of making mistakes
@@ -162,13 +171,16 @@ Note:
 
 ## Different perspectives
 
-- CODE: Tick / Sync model - Nick mentioned, then 2 years later elm EU games
+- TODO: PIC Haven timeout page
+- TODO: PIC CODE v 1 -> Code v 2<!-- .element class="fragment" -->
 
 Note:
 - I had a valuable learning exp with another colleague from that original Elm project.
-- Because of that I am not so quick to dismiss the thoughts of newcomers to the project - no matter what their experiece.
+- Tick/sync model story
+- TICK: Because of that I am not so quick to dismiss the thoughts of newcomers to the project - no matter what their experiece.
 - Everyone's voice is valid. Sometimes with less knowledge, we can point out a much simpler way.
 - Especially if we are looking at a small part of the big picture in collaboration. More overview sometimes makes it seem more complicated than it needs to be.
+- Those people with the new ideas - might only say them once very quietly. Listen out.
 - It's important to remember to trust your team.
 
 ---
@@ -182,14 +194,13 @@ Team without labels is just "team"<!-- .element class="fragment" -->
 
 Note:
 - Remeber that picture of my team?
-- TODO fix tick points...
 - If we'd stuck to thinking of Holly as an illustrator - we'd probably not have been able to deliver this project on time.
 - If you label something as X... people will be lazy about assigning value/ use cases to it. If you don't label, people use own experience/ imagination.
-- TICK: Rockstars: veteran = learned stuff over time, bit by bit = unforgettable knowledge, baby = natural skill, 
-- TICK: TODO labels can be put there by self or others self tagged = someone who doesn't know what they don't know, boss tagged = pressure to cover gaps in knowledge / keep up appearance of deep knowledge.
+- Rockstars: veteran = learned stuff over time, bit by bit = unforgettable knowledge, baby = natural skill, 
+- Labels can be put there by self or others: self tagged = someone who doesn't know what they don't know, boss tagged = pressure to cover gaps in knowledge / keep up appearance of deep knowledge.
 - Kids expect you to be able to do everything. So bosses who have labelled you.
-- TICK: Some of my collegues refer to people who don't code - as stripey shirts. As with many things linguistic - times change - so we should keep thinking about whether our language works for our team.
-- Remove? base 64, a11y, i18n - wanted to call this talk ... but pointed out no one would get the joke
+- Guilty of that with Holly + illustrator skills
+- If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
 
 +++
 
@@ -198,14 +209,14 @@ Instead of "Oh, no, this is too difficult for you"
 
 ... we can say "Sure, let me explain"
 
+TODO: Psuedo code examlpes.
+
 Note:
 - Prototyping in paper means you don't have to "get it right" the first time. Elm has that too. Trainee never coded before, confident to let them loose. Hardly had to explain anything.
 - Supportive compiler etc... mitigates fear of failure and makes us more equal (Emma Cunningham Elm EU)
 - Elm good language for communicating ideas to different types of "expertese" or "experience" (Jono Mallanyk Elm EU)
-- psuedo code and placeholders are great - with a few rules, none of that will make it to production.
-- conclusion - If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
+- TICK: examples? psuedo code and placeholders are great - with a few rules, none of that will make it to production.
 - Much of engineering constraints taken care of by constraints of Elm
-- TODO - combine with Language/ culture - focus on labels and knowledge
 
 ---
 
@@ -219,7 +230,7 @@ Note:
 Note:
 - My daughter likes to remind me that I am not a robot
 - From the lists I made when I was a kid, I'm not so sure...
-- There were certainly times where I was talking to Holly saynig things like thats just a function, TODO more here... and then had to pause "You're not following, are you? Nope.
+- There were certainly times where I was talking to Holly saying things like thats just a function, TODO more here... and then had to pause "You're not following, are you? Nope.
 - We do need to remember we are humans, not robots - both when we speak to each other and when writing the code.
 - Think about the future readers and writers of your codebase
 - Our efficiancy needs are different to theirs.
@@ -228,34 +239,33 @@ Note:
 
 +++
 
-## Send "You got this" to future us
+## Elm helps send "You got this" to future us
 
 - Functional pieces are atomic<!-- .element class="fragment" -->
 - Easy to read the code and see what it does<!-- .element class="fragment" -->
-- TODO - fix this example... another tick? Invest time in modelling your use case up front<!-- .element class="fragment" -->
 
 Note:
+- TODO - Holly?
 - It applies to all of us, not just people who are new to coding.
-- MOVE?: If your code confuses another developer - no matter what their level of experience, consider adding comments about why you did it that way.
-- MOVE?: Remember we don;t all have knowledge of all the domains we work in.
+- If your code confuses another developer - no matter what their level of experience, consider adding comments about why you did it that way. You'll thank yourself.
+- Remember we don't all have knowledge of all the domains we work in.
 - Ironically, experienced developers seem to have more trouble reading Elm than beginners
 - Let's try to make them less suspicious / guarded
-- Elm makes people friendsly code - good for beginners, teams + future for every project no matter level of experience/ time.
 - TICK: Someone can fix/ implement a part without knowing the whole. No hidden effects, nuances.
 - TICK: No behind the scenes functional magic. More predicatble. the only magic is turning it into js.
-- TICK: Noisy boiler plate not always helpful.
-- Holly didn't need to navigate through hundreds of directories with many files to find the one that mattered.
+- Elm makes people friendsly code - good for beginners, teams + future for every project no matter level of experience/ time.
 
 ---
 
 ## Nature of bugs
-- CODE: syntax error in json ended up in release
-- PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
+- TODO CODE: syntax error in json ended up in release
+- TODO - delete? PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
 
 Note:
 - Holly's story is the syntax error from before editor installed.
 - remember when I said it didn't matter that Holly had no ide when she started - not entirely true.
 - manual testor visited the page. Similar error was caught at deploy with Elm... still got merged in.
+- There will be bugs - but catching them at compile time is great
 
 +++
 
