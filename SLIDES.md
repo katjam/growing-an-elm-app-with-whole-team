@@ -13,7 +13,7 @@ Note:
 - Developing software in small teams over decade with Neontribe. Work with non-profits to build digital tools that compliment their over-stretched services
 - also raising children for a 1/4 century & dabbled industries
 - Noticed things about how people work together/ behave in groups/ treat each other& been involved in projects that break down because of communication
-- Going to share some practical tips - how and why Elm helps make happier, more productive teams
+- Going to share some practical tips - and talk about how and why I think Elm helps make happier, more productive teams
 - Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Maybe I'll say something didn't know too!
 - Anyway if you know all this stuff - I'll make you feel good about what you are already doing.
 
@@ -156,13 +156,13 @@ Note:
 
 ## Team style not indy style
 
-<blockquote>"You must have faith in your colleagues' competence and good intentions. Very likely the problem you perceive is an indication of tradeoffs you don't yet understand" - Rupert (Neontribe)</blockquote>
+<blockquote class="fragment">"You must have faith in your colleagues' competence and good intentions. Very likely the problem you perceive is an indication of tradeoffs you don't yet understand" - Rupert (Neontribe)</blockquote>
 
 Note:
 - Declarative style of Elm allows people to discover own "how". Many routes to same endpoint. Give everyone ownership of own journey - don't instruct on how, give them a framework that guides them.
 - When Holly comes back to this codebase in 6 months or a year, she'll appreciate that she had a hand in these decisions - and that she was allowed to wander a bit..
 - We don't often take perfect path first time round, nor do we often take decisions without thinking.
-- My colleague Rupert sums that up...
+- TICK: My colleague Rupert sums that up...
 - More people in the team means less burden on the individual. can be outside of core team and be there for bouncing ideas off occassionally or jump in when deadlines loom.
 - Remember that sometimes things made along time ago or in a hurry (there's always a story)
 - We are all capable of making mistakes
@@ -196,11 +196,12 @@ Note:
 - Remeber that picture of my team?
 - If we'd stuck to thinking of Holly as an illustrator - we'd probably not have been able to deliver this project on time.
 - If you label something as X... people will be lazy about assigning value/ use cases to it. If you don't label, people use own experience/ imagination.
-- Rockstars: veteran = learned stuff over time, bit by bit = unforgettable knowledge, baby = natural skill, 
+- Rockstars: veteran = learned stuff over time, bit by bit = unforgettable knowledge(nuemerym, base64), baby = natural skill, 
 - Labels can be put there by self or others: self tagged = someone who doesn't know what they don't know, boss tagged = pressure to cover gaps in knowledge / keep up appearance of deep knowledge.
 - Kids expect you to be able to do everything. So bosses who have labelled you.
 - Guilty of that with Holly + illustrator skills
-- If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
+- TICK: If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
+- TICK:...
 
 +++
 
@@ -239,7 +240,36 @@ Note:
 
 +++
 
-## Elm helps send "You got this" to future us
+## Naming stuff blah, blah, blah...
+- CODE: Naming stuff is hard, refactoring in Elm is easy. Demo search replace in another language + use Keys file evolution
+- TODO specific example of naming conventions?
+- Verbose can be good
+
+Note:
+- True - decisions are hard.
+- I encouraged Holly let the names start off how she thought of them and let them evolve naturally
+- Instead of saying make a thing called this that does that, I framed tasks as... make a thing that does this.
+- Encouraging Holly to name stuff without hesitation, meant I could know more about what she was thinking and how much she understood about what the code was doing.
+
+---
+
+## Nature of bugs
+- TODO CODE: syntax error in json ended up in release
+- TODO - delete? PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
+
+Note:
+- Holly's story is the syntax error from before editor installed.
+- remember when I said it didn't matter that Holly had no ide when she started - not entirely true.
+- manual testor visited the page. Similar error was caught at deploy with Elm... still got merged in.
+- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
+- CODE: react vs Elm vs vue vs drupal i18n - json is hard to read, database is a comlpicated abstraction to keep in sync
+- Translation framework turned out to be a useful step on way to branding
+- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
+- There will be bugs - but catching them at compile time is great
+
++++
+
+## Elm helps "You got this" for future us
 
 - Functional pieces are atomic<!-- .element class="fragment" -->
 - Easy to read the code and see what it does<!-- .element class="fragment" -->
@@ -255,43 +285,6 @@ Note:
 - TICK: No behind the scenes functional magic. More predicatble. the only magic is turning it into js.
 - Elm makes people friendsly code - good for beginners, teams + future for every project no matter level of experience/ time.
 
----
-
-## Nature of bugs
-- TODO CODE: syntax error in json ended up in release
-- TODO - delete? PIC: compare vue.js, php, react vs. Elm cards/ issues (counts?)
-
-Note:
-- Holly's story is the syntax error from before editor installed.
-- remember when I said it didn't matter that Holly had no ide when she started - not entirely true.
-- manual testor visited the page. Similar error was caught at deploy with Elm... still got merged in.
-- There will be bugs - but catching them at compile time is great
-
-+++
-
-## Naming stuff blah, blah, blah...
-- CODE: Naming stuff is hard, refactoring in Elm is easy. Demo search replace in another language + use Keys file evolution
-- TODO specific example of naming conventions?
-
-Note:
-True - decisions are hard.
-Jam study?
-- TODO - Holly's story let the names start off how they think of them and evolve naturally
-- Letting Holly name stuff means I understand more about what she is thinking
-- TODO - Talking about it and letitng them choose helps you understand how much your colleague understands
-
-+++
-
-## Verbose can be good
-TODO remove this whole thing.
-- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
-- CODE: react vs Elm vs vue vs drupal i18n - json is hard to read, database is a comlpicated abstraction to keep in sync
-
-Note:
-- Translation framework turned out to be a useful step on way to branding
-- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
-- CODE: react vs Elm vs vue vs drupal i18n - json is hard to read, database is a comlpicated abstraction to keep in sync
-- TODO - combine wth another section? Holly's story?
 
 ---
 
@@ -307,7 +300,6 @@ Note:
 - At Elm europe I was trying to explain to someone why I like using Elm...
 - TICK: My colleague ponited out that you get happy With other languages/ frameworks too, but there is a lot more head banging and theory before we can reach the happy point.
 - TICK: And - Holly isn't the only one feeling that joy!
-
 - **Before next** Pretty sure every one in the room has experienced ...gotten upset or made someone upset - or even cry as a result of how project was going & how your team was communicating.
 - I want to share some questions with you that I've been asking myself since I started this exploration of how we can work better in our teams
 - I can't tell you what the answers are for you and your situation. But I think it's worth taking some time to think about them in the context of your own teams and projects.
@@ -345,13 +337,11 @@ Note:
 +++
 
 ## What we can do as a community
-- labeling each other probably doesn't help - let's stop doing it<!-- .element class="fragment" -->
-- the variety of our knowledge is valuable - let's keep learning and sharing <!-- .element class="fragment" -->
-- no one should feel left out - let's work on inclusivity <!-- .element class="fragment" -->
+- Labeling each other probably doesn't help - let's stop doing it.<!-- .element class="fragment" -->
+- The variety of our knowledge is valuable - let's keep learning and sharing.<!-- .element class="fragment" -->
+- No one should feel left out - let's work on inclusivity.<!-- .element class="fragment" -->
 
 Note:
 - TICK: We all feel dumb and vulnerable sometimes. The important thing is not to box others in or judge them.
 - TICK: Ignorance is a universal condition - no one knows everything.
-- TICK: Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone that finds themselves next to us in this space, no matter what their journey here.
--
-- TODO add readme with links to the talks and resources mentioned.
+- TICK: Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone who finds themselves next to us in this space, no matter what their journey to get here.
