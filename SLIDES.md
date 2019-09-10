@@ -10,7 +10,7 @@ I like being nice & getting good stuff done.
 
 
 Note:
-- Developing software in small teams for over a decade with Neontribe. We build work a lot with non-profits to build digital tools that compliment their over-stretched services.
+- Developing software in small teams for over a decade with Neontribe. We work a lot with non-profits to build digital tools that compliment their over-stretched services.
 - I've also been rasing children for a quarter of a century and dabbled in other industries.
 - I've noticed some things about how people work together/ behave in groups/ treat each other & been involved in projects that break down because of communication
 - Going to share some practical tips - how and why Elm helps make happier, more productive teams
@@ -21,28 +21,32 @@ Note:
 
 ## 2 years ago...
 
-PIC: New project! Path to framework choice...
-- back: ~~python, php, wordpress, drupal, symfony, laravel~~, 
-- front: jquery, handlebars, angular, vue -> elm
+New project!
+- ~~python, php, wordpress, drupal, symfony, laravel~~
+- jquery... handlebars... angular... vue...
+
+![](img/elm.png)<!--.element class="fragment" -->
 
 Note:
 - Usually projects have lead front and lead back
 - No backend...
-- Suspiscious of js following some jquery and angular projects
+- I'd been down the jquey, handlebars, angular, vue route and was suspiscious of js
 - Not confident I wouldn't make a mess
 - Same time was playing with clojure and haskell and feeling like funtional was a safe / predictable space
-- Someone mentioned Elm
+- TICK: Someone mentioned Elm
 
 +++
 
 ## So we're going with Elm?
 
-PIC: haven site with some code & elm seasons
+TODO: evolve haven site with some code & elm seasons
 
 Note:
 **Had some ups and downs, but we built a thing**
+- We had convresations around Elm being the wrong tool / over-engineering
 - Learn to trust each other's tech - and knowlegde & ability to evaluate and make choices in good faith
-- Unfortunately not everyone agreed with me and we tied the project off - released and on the shelf... and most of the company forgot about it.
+- I tried to explain that - yes Elm can make more complex apps safer but it's also a solid foundaiton for any UI
+- Unfortunately not everyone agreed with me but we shipped... and most of the company forgot about it.
 
 +++
 
@@ -59,40 +63,41 @@ Note:
 - Upgrade to 19 - Manager I think we can handle the translation & upgrade
 - Maybe better port the app to html/js for the clones so more people can work on it?
 - Manager was thinking in terms of labels but
-- TICK: I had a hunch I'd be able to rely on people in my team who didn't yet identify themselves as coders.
+- TICK: But precisely because it was in Elm, I had a hunch I'd be able to rely on people in my team who didn't yet identify themselves as coders.
+- So when Holly - who'd been with us for 3 months, stepped forward after standup...
 - Yes! There is something I need help with.
 
 ---
 
 ## Stumbling down the path together...
 ![](img/holly.jpg)<!-- .element class="fragment" -->
-- with Holly!<!-- .element class="fragment" -->
+
+with Holly!<!-- .element class="fragment" -->
 
 Note:
-- Historically - we were developer skilled - but all from backgrounds
-- The company used to be nearly all devs filling in the non-developer jobs, recently, we've hired a few people with little to no coding experience.
+- Historically Neontribe - was a bunch of developers - but all from backgrounds
+- We filled in the non-developer jobs, but recently, hired a few people with little to no coding experience.
 - So we set off with myself and another developer with very little time here and there
-- A user researcher with a maths degree who'd done a bit of coding and had lots of experience in the charity sector.
-- A junior illustrator who wanted to help (recent arts graduate)
+- We got a user researcher with a maths degree who'd done a bit of coding and had lots of experience in the charity sector - to lead the discovery and liaise with clients
+- And of course, Holly a recent arts graduate and illustrator who wanted to help
 - We hit all the same problems every software project has...
 - It didn't all go swimmingly .. but this is what worked well and how Holly helped me reflect on where our process could be better
 
 ---
 
 ## Beginners welcome
-
+We need beginners in our community and in our teams
 
 Note:
 - London Elm code night woman - "Only coding meetup that said beginners welcome"
-- We need beginners in our community and in our teams
 - Projects will always need beginners - keep healthy fresh perspectives coming in.
 
 +++
 
-## The beginners on your team need guidance
+## The beginners on your team will appreciate guidance
 - What do new team members need to know<!-- .element class="fragment" data-fragment-index="1" -->
 - Check in regularly<!-- .element class="fragment" data-fragment-index="2" -->
-- Set guidelines for Pull Request review<!-- .element class="fragment" data-fragment-index="3" -->
+- Set guidelines for code review<!-- .element class="fragment" data-fragment-index="3" -->
 - Talk about how to talk about code<!-- .element class="fragment" data-fragment-index="4" -->
 
 
@@ -105,37 +110,36 @@ Seiya Izumi Code review strategy elm eu 2019)
 - https://speakerdeck.com/izumisy/our-journey-with-the-biggest-elm-app-in-japan?slide=30
 - TICK: Felienne Hermans how code sounds
 
-
 +++
 
 ## Brand new to coding
 
-PIC: or text TODO
+PIC: TODO, list all the overwhlmeing things about setting up environs.
+- mac, windows, linux, which linux, vs code, sublime, atom
+- node, nvm, yarn, git...
+- Elm + text editor<!-- .element class="fragment" -->
 
 Note:
 - When Holly first joined the project - she didn't have a dev environment set up.
 - But I didn't think that should be a barrier.
 - Afterall it's only text and the first few issues were editing that text.
 - I even got our testing manager to submit directly to github when noticed there were no issue templates in place.
-- TICK: New developers and non-developers productive quickly. Why/ how Elm helps. relatedInfo == example?
-TODO: What point are these for?
-- psuedo code and placeholders are great - with a few rules, none of that will make it to production.
+- TICK: New developers and non-developers productive quickly. Why/ how Elm helps
 - Elm framework does not get in the way - easy to set up - no millions of files to navigate round.
-- Much of engineering constraints taken care of by constraints of Elm
-- No more need to know how ot configure a postfix server than we do need to know how to write safe js in order to be good at our jobs (Charlie star inn)
+- No more need to know how ot configure a postfix server than we do need to know how to write safe js in order to be good at our jobs
 
 ---
 
-## Everyone's voice 
+## TODO Everyone's voice 
 PIC: code going in circles - output same. TODO<!-- .element class="fragment" -->
 Comment and code review examples<!-- .element class="fragment" -->
-TODO check these and next are right notes.
+TODO check these and next (2) are right notes & right order.
 
 Note:
 - Once Holly was set up - she started submitting more than just text changes.
-- "because of Tom's experience, I was careful to try and let her do it her way"
 - I remembered a time when another colleague had been coding for about a year - one day he said - seems like all we do every day is go round in circles rewriting each other's code in our own style
 - Sometimes these refectors are important and sometimes they aren't. As with everything i am saying - the important thing is to consider what you are doing and why - in the context of your circumstance.
+- "because of Tom's experience, I was careful to try and let her do it her way"
 - CODE: Collaboration means everything should not be in your style and the project's style should evolve
 - What is the value in being competative? Collaboration is the opposite of heroic leadership.
 - TICK: Maybe you come to the code and don't understand. Ask.
@@ -143,7 +147,7 @@ Note:
 
 +++
 
-## Team style not indy style
+## TODO Team style not indy style
 
 <blockquote>"You must have faith in your colleagues' competence and good intentions. Very likely the problem you perceive is an indication of tradeoffs you don't yet understand" - Rupert (Neontribe)</blockquote>
 
@@ -171,12 +175,10 @@ Note:
 
 ## Language forms culture
 ![](img/labelled-team.jpg)
+Labels can be confusing
+![](img/not-junior.png)<!-- .element class="fragment right" -->
 
-- Labels can be confusing.<!-- .element class="fragment" -->
-- "I'm not a rockstar/ gnome / ninja?" "I am a rockstar/ gnome/ ninja!"<!-- .element class="fragment" -->
-- I wouldn't bother giving your opinion - he has a "Brain the size of a planet"
-- ![](img/not-junior.jpg)<!-- .element class="fragment" -->
-- Team without labels is just "team"<!-- .element class="fragment" -->
+Team without labels is just "team"<!-- .element class="fragment" -->
 
 Note:
 - Remeber that picture of my team?
@@ -192,20 +194,26 @@ Note:
 +++
 
 ## Elm (language and the community) encourages inclusivity & collaboration
-- Instead of "oh, no, this is too difficult for you" we say "Sure, let me explain"
+Instead of "Oh, no, this is too difficult for you" 
+
+... we can say "Sure, let me explain"
 
 Note:
+- Prototyping in paper means you don't have to "get it right" the first time. Elm has that too. Trainee never coded before, confident to let them loose. Hardly had to explain anything.
 - Supportive compiler etc... mitigates fear of failure and makes us more equal (Emma Cunningham Elm EU)
 - Elm good language for communicating ideas to different types of "expertese" or "experience" (Jono Mallanyk Elm EU)
-- Prototyping in paper means you don't have to "get it right" the first time. Elm has that too. Trainee never coded before, confident to let them loose. Hardly had to explain anything.
+- psuedo code and placeholders are great - with a few rules, none of that will make it to production.
 - conclusion - If the company supports, should be able within 3 months to eliminate a lot of the vocab that diminishes peoples identity junior, trainee, etc. can be developer
+- Much of engineering constraints taken care of by constraints of Elm
 - TODO - combine with Language/ culture - focus on labels and knowledge
 
 ---
 
 ## Code for people
-- "Mum you are not a computer"
-- "OK, thanks google."
+"Mum you are not a computer..."
+
+"OK, thanks google."
+
 ![](img/todo.png)
 
 Note:
@@ -278,11 +286,12 @@ Note:
 ---
 
 ## It starts to make you happy...
-Elm starts to make you happy<!-- .element class="fragment" data-fragment-index="1" -->
+Elm starts to make you happy<!-- .element class="fragment" -->
 
-...sooner<!-- .element class="fragment" data-fragment-index="2" -->
+...sooner<!-- .element class="fragment" -->
 
-![](img/first-pr.png)<!-- .element class="fragment" data-fragment-index="3" -->
+![](img/first-pr.png)<!-- .element class="fragment" -->
+![](img/coding-genius.png)<!-- .element class="fragment right" -->
 
 Note:
 - At Elm europe I was trying to explain to someone why I like using Elm...
@@ -326,9 +335,9 @@ Note:
 +++
 
 ## What we can do as a community
-- labeling each other probably doesn't help - let's stop doing it<!-- .element class="fragment" data-fragment-index="1" -->
-- the variety of our knowledge is valuable - let's keep learning and sharing <!-- .element class="fragment" data-fragment-index="2" -->
-- no one should feel left out - let's work on inclusivity <!-- .element class="fragment" data-fragment-index="3" -->
+- labeling each other probably doesn't help - let's stop doing it<!-- .element class="fragment" -->
+- the variety of our knowledge is valuable - let's keep learning and sharing <!-- .element class="fragment" -->
+- no one should feel left out - let's work on inclusivity <!-- .element class="fragment" -->
 
 Note:
 - TICK: We all feel dumb and vulnerable sometimes. The important thing is not to box others in or judge them.
