@@ -76,8 +76,8 @@ Note:
 - Historically Neontribe - was a bunch of developers - but all from backgrounds
 - We filled in the non-developer jobs, but recently, hired a few people with little to no coding experience to support us with those tasks.
 - Those new hires were the ones who had a bit more time on their hands. So we set off:
-- We had a user researcher with a maths degree who'd done a bit of coding and had lots of experience in the charity sector - to lead the discovery and liaise with clients
 - Myself and the other developer who'd worked on the original app
+- A user researcher with a maths degree who'd done a bit of coding and had lots of experience in the charity sector - to lead the discovery and liaise with clients
 - TICK: and of course, Holly a recent arts graduate and illustrator who wanted to help
 - We hit all the same problems every software project has...
 - It didn't all go swimmingly .. but this is what worked well and how Holly helped me reflect on where our process could be better
@@ -145,7 +145,7 @@ Note:
 - TICK: Once Holly was set up - she started submitting more than just text changes.
 - I remembered a time when another colleague had been coding for about a year - one day he said - seems like all we do every day is go round in circles rewriting each other's code in our own style
 - Sometimes these refectors are important and sometimes they aren't. As with everything I am saying - the important thing is to consider what you are doing and why - in the context of your circumstance.
-- "because of Tom's experience, I was careful to try and let her do it her way"
+- "because of his experience, I was careful to try and let her do it her way"
 - Collaboration means everything should not be in your style and the project's style should evolve
 - What is the value in being competative? Collaboration is the opposite of heroic leadership.
 - TICK: We talked about not being afraid to write more than "Looks good" + emoji in code reviews
@@ -171,8 +171,9 @@ Note:
 
 ## Different perspectives
 
-- TODO: PIC Haven timeout page
-- TODO: PIC CODE v 1 -> Code v 2<!-- .element class="fragment" -->
+![](img/youmatter-timeout.png)
+
+![](img/better-timeout.png)<!-- .element class="fragment" -->
 
 Note:
 - I had a valuable learning exp with another colleague from that original Elm project.
@@ -210,13 +211,11 @@ Instead of "Oh, no, this is too difficult for you"
 
 ... we can say "Sure, let me explain"
 
-TODO: Psuedo code examlpes.
 
 Note:
 - Prototyping in paper means you don't have to "get it right" the first time. Elm has that too. Trainee never coded before, confident to let them loose. Hardly had to explain anything.
 - Supportive compiler etc... mitigates fear of failure and makes us more equal (Emma Cunningham Elm EU)
 - Elm good language for communicating ideas to different types of "expertese" or "experience" (Jono Mallanyk Elm EU)
-- TICK: examples? psuedo code and placeholders are great - with a few rules, none of that will make it to production.
 - Much of engineering constraints taken care of by constraints of Elm
 
 ---
@@ -241,7 +240,8 @@ Note:
 +++
 
 ## Naming stuff blah, blah, blah...
-- CODE: Naming stuff is hard, refactoring in Elm is easy. Demo search replace in another language + use Keys file evolution
+- CODE: Naming stuff is hard, refactoring in Elm is easy.
+- TODO REMOVE?: Demo search replace in another language + use Keys file evolution
 - TODO specific example of naming conventions?
 - Verbose can be good
 
