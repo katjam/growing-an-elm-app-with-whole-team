@@ -6,8 +6,9 @@
 }
 
 p img.right {
-  max-width: 430px;
+  max-width: 420px;
   position: absolute;
   right: -277px;
   top: 124px;
+  margin-right: 20px;
 }
