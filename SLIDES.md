@@ -11,7 +11,7 @@ I like being nice & getting good stuff done.
 
 Note:
 - Developing software in small teams over decade with Neontribe. Work with non-profits to build digital tools that compliment their over-stretched services
-- also raising children for a 1/4 century & dabbled industries
+- also raising children for a 1/4 century & dabbled film industry
 - Noticed things about how people work together/ behave in groups/ treat each other& been involved in projects that break down because of communication
 - Going to share some practical tips - and talk about how and why I think Elm helps make happier, more productive teams
 - Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Maybe I'll say something didn't know too!
@@ -22,7 +22,9 @@ Note:
 ## 2 years ago...
 
 New project!
+
 - ~~python, php, wordpress, drupal, symfony, laravel~~
+
 - jquery... handlebars... angular... vue...
 
 ![](img/elm.png)<!--.element class="fragment" -->
@@ -98,7 +100,7 @@ Note:
 - TICK: Can't say for your situation - Code review for beginners easier in Elm. Guidelines give newcomers more confidence. (e.g. changes to the model, does it introduce duplication? Richard Feldman elm conf 2018, naming Ally Kelly McKnight Elm 2018, 	
 Seiya Izumi Code review strategy elm eu 2019)
 - https://speakerdeck.com/izumisy/our-journey-with-the-biggest-elm-app-in-japan?slide=30
-- TICK: Felienne Hermans how code sounds
+- TICK: Felienne Hermans how code sounds (brackets, braces, round square, dash, contextual: hyphen, minus)
 
 +++
 
