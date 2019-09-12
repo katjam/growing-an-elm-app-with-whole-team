@@ -30,8 +30,8 @@ New project!
 ![](img/elm.png)<!--.element class="fragment" -->
 
 Note:
-- Usually projects have lead front and lead back
-- Only budget for 1 lead. After discovery - no backend.
+- Usually projects have lead front and lead back - I was backend lead
+- Budget justify only 1 lead. After discovery - no backend.
 - I'd been down the jquey, handlebars, angular, vue route and was suspiscious of js
 - Not confident I wouldn't make a mess
 - Same time was playing with clojure and haskell and feeling like funtional was a safe / predictable space
@@ -44,8 +44,8 @@ Note:
 TODO: evolve haven site with some code & elm seasons
 
 Note:
-- Had some ups and downs. App is tool uses stories, illustrations&  bite sized info to help victims of domestic violence gain the confidence to get in touch for help.
-- We had conversations around Elm being the wrong tool / over-engineering
+- App is tool uses stories, illustrations&  bite sized info to help victims of domestic violence gain the confidence to get in touch for help. Essentially simple structure.
+- Had ups and downs. Conversations around Elm being the wrong tool / over-engineering
 - syntax confusing - Ironically, exp devs seem to have more trouble reading Elm than beginners
 - Made me reflect that we need to learn to trust each other's tech - and knowlegde & ability to evaluate and make choices in good faith
 - I tried to explain that - yes Elm can make more complex apps safer but it's also a solid foundaiton for any UI
@@ -94,13 +94,11 @@ Note:
 
 
 Note:
-- Now that we had Holly on board - Came up with common sense framework 
+- (6) Now that we had Holly on board - Came up with common sense framework 
 - TICK: Keep minimal - what new team members need to know
 - TICK: Have short converstions often
-- TICK: Can't say for your situation - Code review for beginners easier in Elm. Guidelines give newcomers more confidence. (e.g. changes to the model, does it introduce duplication? Richard Feldman elm conf 2018, naming Ally Kelly McKnight Elm 2018, 	
-Seiya Izumi Code review strategy elm eu 2019)
-- https://speakerdeck.com/izumisy/our-journey-with-the-biggest-elm-app-in-japan?slide=30
-- TICK: Felienne Hermans how code sounds (brackets, braces, round square, dash, contextual: hyphen, minus)
+- TICK: Can't say for your situation - Code review for beginners easier in Elm. Guidelines give newcomers more confidence. (e.g. changes to the model, does it introduce duplication? Richard Feldman elm conf 2018, naming Ally Kelly McKnight Elm 2018, Seiya Izumi Code review strategy elm eu 2019) onboarding to biggest elm app in japan
+- TICK: Felienne Hermans how code sounds: even simple like dash, hyphen, minus contextual
 
 +++
 
@@ -108,7 +106,7 @@ Seiya Izumi Code review strategy elm eu 2019)
 We need beginners in our community and in our teams to keep them healthy
 
 Note:
-- Just like organisations, projects and teams need new people with fresh perspectives
+- Just like organisations& projects& teams need new people with fresh perspectives,
 - Our communities need them too...
 - I am proud to be a member of London Elm Code meetup
 - Mario does a great job of making newcomers feel welcome and does an amazing job of tayloring the content to the people who show up whatever their background
@@ -123,7 +121,7 @@ Note:
 - Elm + text editor<!-- .element class="fragment" -->
 
 Note:
-- When Holly first joined project - didn't have a dev environ set up - I didn't think that should be a barrier I even got our testing manager to submit directly to github when noticed there were no issue templates.
+- (10) When Holly first joined project - didn't have a dev environ set up - I didn't think that should be a barrier I even got our testing manager to submit directly to github when noticed there were no issue templates.
 - Often first issues are about editing existing copy and anyway we are dealing in plain text files.
 - TICK: With Elm, new developers and non-developers productive quickly. Framework doesn't get in the way - easy to set up - no massive boilerplate to navigate round, no complicated toolchain to understand
 - Colleague recently remarked what a shame programmers can no longer do things like configure a postfix server.
@@ -169,7 +167,7 @@ Note:
 <blockquote class="fragment">"You must have faith in your colleagues' competence and good intentions. Very likely the problem you perceive is an indication of tradeoffs you don't yet understand" - Rupert (Neontribe)</blockquote>
 
 Note:
-- Declarative style of Elm allows people to discover own "how". Many routes to same endpoint. Give everyone ownership of own journey - don't instruct on how, give them a framework that guides them. When Holly comes back to this codebase in 6 months or a year, appreciate she had a hand in these decisions - and was allowed to wander a bit
+- Declarative style of Elm allows people to discover own "how". Many routes to same endpoint. Give everyone ownership of own journey - don't instruct on how, give them a framework that guides them - be happier. When Holly comes back to this codebase in 6 months, appreciate she had a hand in these decisions - and was allowed to wander
 - We don't often take perfect path first time round, nor do we often take decisions without thinking.
 - TICK: My colleague Rupert sums that up...
 - More people in the team means less burden on the individual & can be outside of core team and be for bouncing ideas off occassionally or jump in when deadlines loom.
@@ -217,7 +215,7 @@ Sometimes we assign them to ourselves <!-- .element class="fragment" data-fragme
 ...and sometimes others label us.<!-- .element class="fragment" data-fragment-index="0" -->
 
 Note:
-- Rockstars: veteran=learned stuff over time, bit by bit=unforgettable knowledge(probably use but might not know - nuemerym, base64), baby=natural skill
+- (20) Rockstars: veteran=learned stuff over time, bit by bit=unforgettable knowledge(probably use but might not know - nuemerym, base64), baby=natural skill
 - TICK: Labels can be put there by self or others: self tagged=someone who doesn't know what they don't know, boss tagged=pressure to cover gaps in knowledge/keep up appearance of deep knowledge.
 - Kids expect us to be able to do everything. So bosses who have labelled you.
 - Guilty of that with Holly + illustrator skills
@@ -247,7 +245,7 @@ Note:
 ![](img/todo.png)
 
 Note:
-- My daughter likes to remind me that I am not a robot
+- (25) My daughter likes to remind me that I am not a robot
 - From the lists I made when I was a kid, I'm not so sure...
 - There were certainly times where I was talking to Holly saying things like thats just a function and that's a type, you can use them in the view.. and then had to pause "You're not following, are you? Nope.
 - We do need to remember we are humans, not robots - both when we speak to each other and when writing the code.
@@ -273,10 +271,16 @@ Note:
 ---
 
 ## Nature of bugs
-- TODO CODE: syntax error in json ended up in release
+
+![](img/white-screen.png)<!-- .element class="fragment" -->
+
+
+![](img/compile-error.png)<!-- .element class="fragment" -->
+
 
 Note:
 - Remember when I said it didn't matter that Holly had no ide when she started - not entirely true.
+- We were i18n another app at the same time in vue. curly left off. review. merge.
 - manual testor visited the page. Similar error was caught at deploy with Elm... still got merged in.
 - Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
 - There will be bugs - but catching them at compile time is great
@@ -309,7 +313,7 @@ Elm starts to make you happy<!-- .element class="fragment" -->
 ![](img/coding-genius.png)<!-- .element class="fragment right" style="max-width: 350px" -->
 
 Note:
-- At Elm europe I was trying to explain to someone why I like using Elm...
+- (28) At Elm europe I was trying to explain to someone why I like using Elm...
 - TICK: My colleague ponited out that you get happy With other languages/ frameworks too, but there is a lot more head banging and theory before we can reach the happy point.
 - TICK, TICK: And - Holly isn't the only one feeling that joy!
 
@@ -364,3 +368,7 @@ Note:
 - TICK: We all feel dumb and vulnerable sometimes. The important thing is not to box others in or judge them.
 - TICK: Ignorance is a universal condition - no one knows everything.
 - TICK: Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone who finds themselves next to us in this space, no matter what their journey to get here or what they are wanting to say.
+
+---
+
+Thank you
