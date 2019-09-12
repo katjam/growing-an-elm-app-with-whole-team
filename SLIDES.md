@@ -14,7 +14,7 @@ Note:
 - also raising children for a 1/4 century & dabbled industries
 - Noticed things about how people work together/ behave in groups/ treat each other& been involved in projects that break down because of communication
 - Going to share some practical tips - and talk about how and why I think Elm helps make happier, more productive teams
-- TODO Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Maybe I'll say something didn't know too!
+- Much of talk, things you know - but important to give teams & people confidence to spend effort making a "be nice" atmosphere. Maybe I'll say something didn't know too!
 - Anyway if you know all this stuff - hopefully make you feel good about what you are already doing.
 
 ---
@@ -92,7 +92,7 @@ Note:
 
 
 Note:
-- Now that we had Holly on board - Common sense framework 
+- Now that we had Holly on board - Came up with common sense framework 
 - TICK: Keep minimal - what new team members need to know
 - TICK: Have short converstions often
 - TICK: Can't say for your situation - Code review for beginners easier in Elm. Guidelines give newcomers more confidence. (e.g. changes to the model, does it introduce duplication? Richard Feldman elm conf 2018, naming Ally Kelly McKnight Elm 2018, 	
@@ -116,10 +116,8 @@ Note:
 +++
 
 ## Brand new to coding
+![](img/ide.png)
 
-PIC: TODO
-- mac, windows, linux, which linux, vs code, sublime, atom
-- node, nvm, yarn, git...
 - Elm + text editor<!-- .element class="fragment" -->
 
 Note:
@@ -155,6 +153,8 @@ Note:
 
 
 Note:
+- When Holly first contributing to code review, she didn't say much.
+- That's common experiece I think
 - TICK: We talked about not being afraid to write more than "Looks good" + emoji in code reviews
 - She got more confident in her responses.
 - Sometimes you come across code you don't understand - don't rewrite it or ignore it - Ask about it. Have a conversation.
@@ -276,10 +276,7 @@ Note:
 Note:
 - Remember when I said it didn't matter that Holly had no ide when she started - not entirely true.
 - manual testor visited the page. Similar error was caught at deploy with Elm... still got merged in.
-- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
-- CODE: react vs Elm vs vue vs drupal i18n - json is hard to read, database is a comlpicated abstraction to keep in sync
-- Translation framework turned out to be a useful step on way to branding
-- CODE: Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
+- Keys file also good for copy. Anyone can edit, 1/2 way to cms - don't need the extra mapping layer
 - There will be bugs - but catching them at compile time is great
 
 +++
@@ -317,7 +314,7 @@ Note:
 ---
 
 Note:
-- **Before next** Pretty sure every one in the room has experienced ...gotten upset or made someone upset - or even cry as a result of how project was going & how your team was communicating.
+- **Before next** Pretty sure every one in the room has had exp where they've gotten upset or made someone upset - or even cry as a result of how project was going & how your team was communicating.
 - I want to share some questions with you that I've been asking myself since I started this exploration of how we can work better in our teams
 - I can't tell you what the answers are for you and your situation. But I think it's worth taking some time to think about them in the context of your own teams and projects.
 
@@ -357,11 +354,11 @@ Note:
 +++
 
 ## What we can do as a community
-- Labeling each other probably doesn't help - let's stop doing it.<!-- .element class="fragment" -->
+- Labelling each other probably doesn't help - let's stop doing it.<!-- .element class="fragment" -->
 - The variety of our knowledge is valuable - let's keep learning and sharing.<!-- .element class="fragment" -->
 - No one should feel left out - let's work on inclusivity.<!-- .element class="fragment" -->
 
 Note:
 - TICK: We all feel dumb and vulnerable sometimes. The important thing is not to box others in or judge them.
 - TICK: Ignorance is a universal condition - no one knows everything.
-- TICK: Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone who finds themselves next to us in this space, no matter what their journey to get here.
+- TICK: Within this community, at least - I am pretty certain that we all mean well - so let's listen to anyone who finds themselves next to us in this space, no matter what their journey to get here or what they are wanting to say.
