@@ -31,7 +31,7 @@ jquery... handlebars... angular... vue...<!--.element class="fragment" -->
 
 Note:
 - Usually projects have lead front and lead back - I was backend lead
-- TICK: Budget justify only 1 lead. After discovery - no backend.
+- TICK: Was assigned to lead but... After discovery - turns out no backend.
 - TICK: I'd been down the jquey, handlebars, angular, vue route and was suspiscious of js
 - Not confident I wouldn't make a mess
 - Same time was playing with clojure and haskell and feeling like funtional was a safe / predictable space
@@ -45,7 +45,7 @@ Note:
 
 Note:
 - App is tool uses stories, illustrations&  bite sized info to help victims of domestic violence gain the confidence to get in touch for help. Essentially simple structure.
-- TICK: Had ups and downs. Conversations around Elm being the wrong tool / over-engineering
+- Built in short iteratoins over a year. Had ups and downs. Conversations around Elm being the wrong tool / over-engineering
 - syntax confusing - Ironically, exp devs seem to have more trouble reading Elm than beginners
 - Made me reflect that we need to learn to trust each other's tech - and knowlegde & ability to evaluate and make choices in good faith
 - I tried to explain that - yes Elm can make more complex apps safer but it's also a solid foundaiton for any UI
